@@ -23,12 +23,6 @@ ul{
   list-style: none;
 }
 
-@font-face {
-  font-family: Bebas Neue;
-  src: url("../webfonts/BebasNeue-Regular.ttf") format('opentype');
-  font-weight: bold;
-  font-style: normal;
-}
 
 body{
   margin: 0;
