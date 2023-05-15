@@ -36,7 +36,7 @@ body{
   direction: ltr;
   font-family: 'Bebas Neue' , cursive;
   background-color: var(--smain);
-  background-image: url(../images/graphic2.png);
+  background-image: url(../images/graphic.png);
   background-repeat: no-repeat;
   overflow-x: hidden;
 }
@@ -724,6 +724,15 @@ main button span:nth-child(4) {
   -o-border-radius: 20px 20px 20px 20px;
   width: 50%;
 }
+
+.proj-img{
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
 .portfolioContent{
   margin-bottom: -30px;
 }
