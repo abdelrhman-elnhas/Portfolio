@@ -52,3 +52,17 @@ window.onscroll = function () {
     }
   }
 };
+
+const toggles = document.querySelectorAll(".ptoggle .toggle");
+const tLength = toggles.length;
+var img = document.getElementById("proj-img");
+
+toggles.forEach((element) => {
+  element.addEventListener("click", () => {
+    toggles.forEach((span) => span.setAttribute("id", ""));
+    element.setAttribute("id", "toggleChecked");
+    var sr = element.getAttribute("data-name");
+    img.src = "public/images/" + sr + ".jpg";
+    console.log(img.src);
+  });
+});
