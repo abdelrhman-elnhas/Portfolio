@@ -28,7 +28,7 @@ body{
   margin: 0;
   padding: 0;
   direction: ltr;
-  font-family: 'Bebas Neue' , cursive;
+  font-family: 'Bebas Neue' , sans-serif;
   background-color: var(--smain);
   background-image: url(../images/graphic.png);
   background-repeat: no-repeat;
