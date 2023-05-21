@@ -37,7 +37,7 @@ var value = document.querySelector(".prgV");
 let sectionEnd = document.getElementById("services");
 window.onscroll = function () {
   if (
-    window.scrollY >= section.offsetTop - 100 &&
+    window.scrollY >= section.offsetTop - 350 &&
     window.scrollY <= sectionEnd.offsetTop
   ) {
     for (let x = 0; x < bar.length; x++) {

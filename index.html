@@ -12,10 +12,12 @@
     <link rel="stylesheet" href="public/assets/Bootstrap/css/bootstrap.min.css">
     <!-- FontAwesome CSS-->
     <link rel="stylesheet" href="public/assets/FontAwesome/css/all.min.css">
+    <!-- Animate CSS-->
+    <link rel="stylesheet" href="public/assets/Animate/css/animate.css">
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="public/css/index.css">
     <!-- Font Preload Stylesheet -->
-    <link rel="preload" href="public/css/font.css" as="font">
+    <link rel="preload" href="public/css/font.css" as="font" type="font/woff2" crossorigin>
   </head>
 
   <body oncontextmenu=";">
@@ -56,7 +58,7 @@
     <!-- End Header -->
 
     <!-- Start Sidebar -->
-    <nav class="social d-flex flex-column justify-content-evenly align-items-end pe-3">
+    <nav class="social position-absolute d-flex flex-column justify-content-evenly align-items-end pe-3">
       <a href="https://www.facebook.com/abdelrhman.elnhas" target="_blank"><i
           class="fa-brands fa-facebook-f fa-lg pe-1"></i></a>
       <a href="https://twitter.com/a_elnhas1" target="_blank"><i class="fa-brands fa-twitter fa-lg"></i></a>
@@ -71,7 +73,7 @@
 
     <!-- Start Home Content -->
     <main id="home">
-      <div class="container mt-5 d-flex align-items-between justify-content-between">
+      <div class="container mt-5 d-flex align-items-between justify-content-between   wow slideInUp duration-1s">
         <div class="ms-md-5 col-12 col-md-6 mt-5 pt-5">
           <p class="hello">Hello , I'm </p>
           <p class="name">Abdelrhman Elnhas</p>
@@ -91,10 +93,10 @@
     <!-- End Home Content -->
 
     <!-- Start About Content -->
-    <section id="about" class="pt-2 ps-5">
-      <div class="p-1 p-md-4 col-12 d-md-flex flex-row justify-content-center align-items-center">
+    <section id="about" class="ps-5">
+      <div class="p-1 p-md-4 col-12 d-md-flex flex-row justify-content-center align-items-center   wow slideInUp duration-1s">
         <div class="txt col-12 col-md-6 mb-4 p-1 p-md-5">
-          <p class="heading"> &lt; About Me &gt; </p>
+          <p class="heading text-center text-lg-start"> &lt; About Me &gt; </p>
           <p class="about-txt pt-3"><span>Hi There! I'm Abdelrhman Elnhas.</span>
             I'm an Electrical Engineering Student,
             Majoring in computers and control systems.
@@ -105,7 +107,7 @@
             Here you can see some of my skills.
           </p>
         </div>
-        <div class="bars col-12 col-md-6 d-flex flex-column justify-content-start">
+        <div class="bars pe-5 col-12 col-md-6 d-flex flex-column justify-content-start">
           <label class="skill">HTML</label>
           <div class="progress d-flex justify-content-between" role="progressbar" aria-label="Example with label"
             aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
@@ -185,7 +187,7 @@
 
     <!-- Start Services Section -->
     <section id="services" class="pt-5  mt-5 mb-5 pb-5">
-      <div class="container col-12">
+      <div class="container col-12   wow slideInUp duration-1s">
         <div class="row col-12 text-start">
           <p class="heading">&lt; Services &gt;</p>
           <p class="heading fs-2">Here is What I can do for you ...</p>
@@ -253,7 +255,7 @@
     <!-- End Services Section -->
 
     <!-- Start Mini Section -->
-    <section class="mini d-flex flex-column justify-content-center align-items-center pt-5">
+    <section class="mini d-flex flex-column justify-content-center align-items-center pt-5   wow slideInUp duration-1s">
       <p>Have Any Projects in mind?</p>
       <p>Let's build a project together , I'm always honoured to work with great people.</p>
       <div class="flex-row col-12 text-center">
@@ -270,7 +272,7 @@
 
     <!-- Start Portfolio Section -->
     <section id="portfolio">
-      <div class="container col-12 mt-5 pt-5 mb-5 pb-5">
+      <div class="container col-12 mt-5 pt-5 mb-5 pb-5   wow slideInUp duration-1s">
         <div class="row col-12 mb-3 text-center">
           <p class="heading">&lt; Portfolio &gt;</p>
           <p class="heading fs-2">These are some projects I've worked on ..</p>
@@ -299,7 +301,7 @@
     <!-- End Portfolio Section -->
     <!-- Start Contact Section -->
     <section id="contact">
-      <div class="container mt-5 pt-3">
+      <div class="container mt-5 pt-3   wow slideInUp duration-1s">
         <div class="row col-12 mb-3 text-center">
           <p class="heading">&lt; Contact &gt;</p>
           <p class="heading fs-2">It always Starts by <span class="hi">saying Hi !</span> ..</p>
@@ -332,22 +334,29 @@
     <!-- End Contact Section -->
 
     <!-- Start Footer Section -->
-    <nav class="pre-footer d-none d-md-flex justify-content-center align-items-center py-2 mt-5">
-      <a class="px-5" href="#home">Home</a>
-      <a class="px-5" href="#about">About</a>
-      <a class="px-5" href="#services">Services</a>
-      <a class="px-5" href="#portfolio">Portfolio</a>
-      <a class="px-5" href="#contact">Contact</a>
-    </nav>
-    <footer class="text-center pt-4 pb-2 mt-5 mt-md-0 ">
-      <p>Designed & Developed by <span>Abdelrhman A. Elnhas</span></p>
-      <p>copyrights &copy; 2023 . All rights reserved by <span> <img class="pt-1" src="public/images/LogoC.png" width="2%"
-            alt=""></span></p>
+    <footer class="foot   wow slideInUp duration-1s">
+      <nav class="pre-footer d-none d-md-flex justify-content-center align-items-center py-2 mt-5">
+        <a class="px-5" href="#home">Home</a>
+        <a class="px-5" href="#about">About</a>
+        <a class="px-5" href="#services">Services</a>
+        <a class="px-5" href="#portfolio">Portfolio</a>
+        <a class="px-5" href="#contact">Contact</a>
+      </nav>
+      <footer class="text-center pt-4 pb-2 mt-5 mt-md-0 ">
+        <p>Designed & Developed by <span>Abdelrhman A. Elnhas</span></p>
+        <p>copyrights &copy; 2023 . All rights reserved by <span> <img class="pt-1" src="public/images/LogoC.png" width="2%"
+              alt=""></span></p>
+      </footer>
     </footer>
     <!-- End Footer Section -->
 
     <!-- Bootstrap JS -->
     <script src="public/assets/Bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- WOW JS -->
+    <script src="public/assets/Animate/js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
     <!-- FontAwesome JS -->
     <script src="public/assets/FontAwesome/js/all.min.js"></script>
     <!-- Script File -->
