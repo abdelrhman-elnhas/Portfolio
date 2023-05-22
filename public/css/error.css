@@ -1,0 +1,20 @@
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --fmain: #701818;
+  --smain: #313131;
+  --secondary: #F6E7D8;
+  --third: #FEF9A7;
+
+}
+
+body{
+  background-color: var(--smain);
+  overflow-x: hidden;
+}
+

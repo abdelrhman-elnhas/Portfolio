@@ -1,8 +1,6 @@
-// filterSelection("all");
 const cards = document.querySelectorAll(".col-md-4");
 function filterSelection(c) {
   cards.forEach((card) => {
-    console.log(c);
     if (card.classList.contains(c)) {
       card.style.display = "block";
     } else {

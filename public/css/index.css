@@ -978,7 +978,7 @@ main button span:nth-child(4) {
 
 /* Start Footer Section */
 .foot{
-  position: relative;
+  float: inline-end;
 
 }
 .pre-footer{
@@ -1131,5 +1131,12 @@ footer>p>span{
 
 .proj-card .meta li:last-child::after {
   display: none;
+}
+.all{
+  transition: 0.5s all linear;
+  -webkit-transition: 0.5s all linear;
+  -moz-transition: 0.5s all linear;
+  -ms-transition: 0.5s all linear;
+  -o-transition: 0.5s all linear;
 }
 /* End Projects Section */
