@@ -19,7 +19,7 @@
     url("../webfonts/BebasNeue-Regular.woff?v=1.0.4") format("woff"),
     url("../webfonts/BebasNeue-Regular.ttf?v=1.0.4") format("truetype"),
     url("../webfonts/BebasNeue-Regular.svg?v=1.0.4#BebasNeueRegular") format("svg");
-  font-weight: normal;
+  font-weight: bold;
   font-style: normal;
   text-rendering: optimizeLegibility;
 }
