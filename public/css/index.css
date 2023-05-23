@@ -30,7 +30,7 @@ body{
   direction: ltr;
   font-family: 'Bebas Neue';
   background-color: var(--smain);
-  background-image: url(../images/graphic.png);
+  background-image: url(../webfonts/graphic.png);
   background-repeat: no-repeat;
   overflow-x: hidden;
 }
