@@ -42,6 +42,7 @@ body{
   padding: 0;
   direction: ltr;
   font-family: 'Bebas Neue';
+  font-weight: bold;
   background-color: var(--smain);
   background-image: url(../webfonts/graphic.png);
   background-repeat: no-repeat;
